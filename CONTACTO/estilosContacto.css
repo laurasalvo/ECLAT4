@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.situado{
+    font-weight: bold;
+}
+
+
+.divTitulo{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    background-image:url(img/contactoimg1.png) ;
+    filter:brightness(50%);
+    height:500px ;
+    background-repeat: repeat-x;
+
+}
+.divTitulo h5{
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 80px;
+    line-height: 6.5;
+
+    
+
+}
+.divFondo{
+    background-color:rgba(240,239,235,255)  ;
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+    
+    
+}
+.divFondo>p{
+    font-size: 20px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 10px;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;  
+}
+button{
+    width: 180px;
+    height: 70px;
+    margin-top: 50px;
+    
+    
+}
+
+
+.localizaciones{
+    margin-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+    
+    
+    
+}
+
+.borderr{
+    border-right:solid ;
+    border-color:rgba(240,239,235,255)  ;
+}
+
+.loc1 p,.loc2 p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.loc1, .loc2{
+    display: flex;
+    margin-top: 50px;
+    
+    
+
+}
+.loc1{
+    padding-bottom: 50px;
+    border-bottom: solid;
+    border-color: rgba(240,239,235,255) ;
+    
+}
+.loc1 div,.loc2 div{
+    width: 700px;
+    height: 100px;
+   
+
+       
+}
+.p1{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.suscripcion{
+    margin-top: 200px;
+    height: 200px;
+    background-color:rgba(240,239,235,255) ;
+      
+
+}
+.suscripcion h4{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.suscripcion p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+
+}
+
+input[type="submit"]{
+    height: 25px;
+    width: 50px;
+
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
