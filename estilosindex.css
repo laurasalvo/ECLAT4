@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-bottom: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: fit-content;
+    z-index: 100;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* ++++++++++++++++++++++++++ */
+
+
+#menu ul{
+    
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content:space-around;
+}
+
+#menu ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#menu #item{
+    float:left;
+    padding: 12px 22px;
+    display: 200px;
+    
+    
+
+}
+#menu #desple{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background-color: none;
+    /* padding: 20px; */
+    padding-top: 10px;
+    color: white;
+    position: absolute;
+    top: 35px;
+    
+}
+
+
+
+#menu #item:hover #desple{
+    display: block;
+    
+
+
+}
+#desple li{
+    padding-top: 12px;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++ */
+
+
+.divEncabezado{
+    height: 100vh;
+    background-image:url(IMAGENES/eec04714d7c4-gara-arias-t.avif);
+    filter:brightness(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.primerDiv{
+    
+    height: 150px;
+
+}
+
+.primerDiv h3{
+    padding-top: 5px;
+}
+
+.primerDiv > .flags {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    top: 75px;
+    right: 100px;
+    transform: translate(-50%, -50%);
+}
+
+.primerDiv > .flags > div > img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+h3{
+    text-align: center;
+    align-content: center;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: white;
+    filter:unset;
+}
+
+
+.apartados{
+    position: relative;
+    margin-top: 1px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 1px;
+    color: white;
+   
+}
+
+  
+h5{
+    margin-left: 50px;
+}
+
+
+
+select{
+    position: absolute;
+    right: 150px;
+    top: 125px;
+    width: 20px;
+    height: 20px;
+   
+   
+}
+
+.divPrincipal2{
+   
+    margin-top: 150px;
+
+    
+}
+
+.divTitulo{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    
+
+}
+
+.divTexto{
+    position: relative;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 25px;
+    
+}
+
+
+#tituloNuevos{
+    margin-top: 150px;
+    font-weight: 50px;
+    margin-left: 80px;
+    font-size: 20px;
+    
+    
+
+
+
+}
+.imagenesNuevos{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    
+    
+    
+  
+
+
+}
+.imagenesNuevos img{
+    position:relative;
+    margin-left: 40px;
+    width: 320px;
+    height: 340px;
+    object-fit: contain;
+    
+
+}
+.i1{
+    border-radius: 29% 53% 45% 50% / 39% 28% 61% 63% ;
+
+
+}
+.i2{
+    border-radius: 77% 21% 23% 79% / 76% 28% 45% 25% ;
+
+}
+.i3{
+    border-radius: 39% 61% 24% 85% / 87% 49% 51% 22%;
+
+}
+.i4{
+    border-radius: 27% 90% 43% 69% / 87% 58% 51% 59% ;
+    
+
+}
+.i1:hover{
+    
+    border-radius: 93% 61% 99% 36% / 87% 32% 75% 76% ;
+
+}
+
+.i2:hover{
+    border-radius: 43% 100% 100% 35% / 61% 14% 100% 76% ;
+
+
+}
+.i3:hover{
+    border-radius: 8% 100% 38% 100% / 61% 38% 100% 76% ;
+
+
+}
+.i4:hover{
+    border-radius: 78% 100% 100% 78% / 100% 80% 100% 28% ;
+    
+}
+
+
+.nuevo{
+    position: relative;
+    display:flex;
+    margin-left: 40px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    text-align: center;
+    
+
+}
+
+.iconosFinal {
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconosFinal > div {
+    display:flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icono > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono1{
+    align-items: center;
+
+}
+
+.iconosFinal img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.iconosFinal p{
+    
+    margin-top: 30px;
+   
+    
+    
+    
+    
+    
+    
+}
+
+.suscripcion{
+    margin-top: 150px;
+    height: 200px;
+    background-color:rgba(240,239,235,255) ;
+      
+
+}
+.suscripcion h4{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.suscripcion p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+
+}
+
+input[type="submit"]{
+    height: 25px;
+    width: 50px;
+
+
+}
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.flags_item{
+    width: 20px;
+}
+.flags_img{
+    cursor: pointer;
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

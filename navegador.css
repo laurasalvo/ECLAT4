@@ -1,0 +1,84 @@
+h6{
+    font-size: 20px;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+nav {
+    background-color: white;
+    padding: 10px;
+    top: 0;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+    height:60px ;
+    
+
+    
+    
+
+    
+    
+}
+h6{
+    font-size: 17px;
+    
+}
+
+
+
+
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+    
+    
+
+}
+#menu #item{
+    float:left;
+    padding: 12px 22px;
+    display: 200px;
+    
+    
+
+}
+#menu #desple{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#menu #item a:hover{
+    transform: scale(1.05);
+
+}
+
+#menu #item:hover #desple{
+    display: block;
+    
+
+
+}
+#desple li{
+    padding-top: 12px;
+    justify-content: left;
+}
+
+

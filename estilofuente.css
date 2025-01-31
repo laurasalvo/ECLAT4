@@ -1,0 +1,52 @@
+
+
+@font-face {
+    font-family: "nixie";
+    src: url(FONT/nixie_one/NixieOne.ttf);
+}
+
+@font-face {
+    font-family: "nexabold";
+    src: url(FONT/NexaLight/Nexa\ Bold.otf);
+
+}
+@font-face {
+    font-family: "nexalight";
+    src: url(FONT/NexaLight/Nexa\ Light.otf);
+}
+@font-face {
+    font-family: "mewatonia";
+    src: url(FONT/MEWATONIA.ttf);
+    
+}
+@font-face {
+    font-family: "bebas";
+    src: url(FONT/Bebas/BEBAS___.TTF);
+}
+
+h3, h6{
+    font-family: "beba";
+    font-weight: 20px;
+}
+.apartados{
+    font-family: "nexabold";
+}
+
+p, #menu{
+    font-family:"nexalight";
+   
+}
+.divTitulo h5{
+    font-family:"nexalight";
+
+}
+#desple li{
+    font-family:"nexalight";
+    font-size: 15px;
+
+}
+
+
+
+
+
